@@ -1,0 +1,20 @@
+com.scheduler.TaskScheduler=\
+  com.scheduler.Task,\
+  com.scheduler.TaskState,\
+  com.scheduler.TaskRunner,\
+  com.scheduler.TaskStore,\
+  com.scheduler.JdbcTaskStore,\
+  com.scheduler.RedisTaskStore,\
+  com.scheduler.DependencyResolver,\
+  com.scheduler.SchedulerConfig,\
+  com.scheduler.cluster.ClusterManager,\
+  com.scheduler.cluster.HeartbeatManager,\
+  com.scheduler.cron.CronExpression,\
+  com.scheduler.cron.CronField,\
+  com.scheduler.metrics.SchedulerMetrics,\
+  com.scheduler.listener.TaskListener,\
+  com.scheduler.listener.LoggingListener,\
+  com.scheduler.retry.RetryPolicy,\
+  com.scheduler.queue.PriorityTaskQueue,\
+  com.scheduler.api.SchedulerApi,\
+  com.scheduler.api.TaskController
